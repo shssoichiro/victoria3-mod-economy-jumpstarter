@@ -1,0 +1,16 @@
+﻿pm_rural_mining = {
+	texture = "gfx/interface/icons/production_method_icons/picks_and_shovels.dds"
+	building_modifiers = {
+		# Technically this is unscaled because we can only ever have
+		# 1 of these buildings per country
+		workforce_scaled = {
+			goods_output_sulfur_add = 10
+			goods_output_iron_add = 10
+			goods_output_coal_add = 10
+			goods_output_lead_add = 10
+		}
+		level_scaled = {
+			building_employment_laborers_add = 1000
+		}
+	}
+}

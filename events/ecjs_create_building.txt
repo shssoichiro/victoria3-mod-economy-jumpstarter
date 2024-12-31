@@ -1,0 +1,47 @@
+﻿namespace = economy_jumpstart
+economy_jumpstart.1 = {
+	type = country_event
+	hidden = yes
+	trigger = {
+		any_scope_state = {
+			is_capital = yes
+			NOT = {
+				has_building = building_rural_mining
+			}
+		}
+	}
+	immediate = {
+		every_scope_state = {
+			limit = {
+				is_capital = yes
+				NOT = {
+					has_building = building_rural_mining
+				}
+			}
+			create_building = {
+				building = "building_rural_mining"
+				level = 1
+			}
+		}
+	}
+}
+
+economy_jumpstart.2 = {
+	type = country_event
+	hidden = yes
+	trigger = {
+		any_scope_state = {
+			is_capital = no
+			has_building = building_rural_mining
+		}
+	}
+	immediate = {
+		every_scope_state = {
+			limit = {
+				is_capital = no
+				has_building = building_rural_mining
+			}
+			remove_building = building_rural_mining
+		}
+	}
+}

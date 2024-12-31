@@ -1,0 +1,17 @@
+﻿building_rural_mining = {
+	building_group = bg_mining
+	city_type = mine
+	buildable = no
+	expandable = no
+	downsizeable = no
+	can_switch_owner = no
+	ownership_type = self
+	possible = {
+		is_capital = yes
+	}
+	production_method_groups = {
+		pmg_rural_mining
+	}
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
+	icon = "gfx/interface/icons/building_icons/iron_mine.dds"
+}
