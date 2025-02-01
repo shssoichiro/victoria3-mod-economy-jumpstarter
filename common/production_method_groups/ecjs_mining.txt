@@ -5,3 +5,30 @@
 		pm_rural_mining
 	}
 }
+
+pmg_rubber_latex_research = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+	production_methods = {
+		pm_no_rubber_latex_research
+		pm_rubber_latex_research
+	}
+}
+
+pmg_steam_generators = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+	production_methods = {
+		pm_no_steam_generators
+		pm_steam_generators
+	}
+}
+
+pmg_refining_lab = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+	production_methods = {
+		pm_no_refining_lab
+		pm_refining_lab
+	}
+}

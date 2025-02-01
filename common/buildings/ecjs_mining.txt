@@ -11,6 +11,9 @@
 	}
 	production_method_groups = {
 		pmg_rural_mining
+		pmg_rubber_latex_research
+		pmg_steam_generators
+		pmg_refining_lab
 	}
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
 	icon = "gfx/interface/icons/building_icons/iron_mine.dds"
